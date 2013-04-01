@@ -1,4 +1,4 @@
-module dataMemory (clk,reset,adr,writedata,memread,memwrite,data);
+module DataMemory (clk,reset,adr,writedata,memread,memwrite,data);
   input clk,reset;
   input[31:0] adr,writedata;
   input memread,memwrite;
